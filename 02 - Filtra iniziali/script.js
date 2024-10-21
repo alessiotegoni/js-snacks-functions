@@ -2,12 +2,13 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
-
 // Dichiara la funzione qui.
 
+const filterStrings = (arr, startsWith) =>
+  arr.filter((n) => n.toLowerCase().startsWith(startsWith.toLowerCase()));
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+console.log(filterStrings(names, "A"));
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]

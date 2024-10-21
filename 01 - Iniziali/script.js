@@ -4,7 +4,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
-const getFirstMissive = (arr) => arr.map((m) => m.charAt(0));
+const getFirstMissive = (arr) => arr.map((n) => n.charAt(0));
 
 console.log(getFirstMissive(names));
 
