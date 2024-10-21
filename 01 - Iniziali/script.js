@@ -2,12 +2,12 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
-
 // Dichiara la funzione qui.
 
+const getFirstMissive = (arr) => arr.map((m) => m.charAt(0));
+
+console.log(getFirstMissive(names));
 
 // Invoca la funzione qui e stampa il risultato in console
-
-
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
